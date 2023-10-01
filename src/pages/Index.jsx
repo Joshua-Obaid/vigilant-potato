@@ -21,10 +21,16 @@ import  sliderImg from '../assets/images/slider-img.png'
 // import  trucks from '../assets/images/trucks.svg'
 
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 export default function Index(){
         return(
         <>
+        <Helmet>
+          <title>Home - Giftoos shop</title>
+          <meta name='description' content='shop products at giftoos'/>
+          <link rel='canonical' href='/'/>
+        </Helmet>
     <div className="hero_area">
     {/* <!-- header section strats --> */}
     <header className="header_section">
@@ -107,7 +113,7 @@ export default function Index(){
                   </div>
                   <div className="col-md-5 ">
                     <div className="img-box">
-                      <img src={sliderImg} alt="" />
+                      <img src={sliderImg} alt="young girl" />
                     </div>
                   </div>
                 </div>
@@ -157,7 +163,7 @@ export default function Index(){
                   </div>
                   <div className="col-md-5 ">
                     <div className="img-box">
-                      <img src="assets/images/slider-img.png" alt="" />
+                      <img src={sliderImg} alt="young girl" />
                     </div>
                   </div>
                 </div>
@@ -169,7 +175,7 @@ export default function Index(){
               <i className="fa fa-arrow-left" aria-hidden="true"></i>
               <span className="sr-only">Previous</span>
             </a>
-            <img src={line} alt="" />
+            <img src={line} alt="line" />
             <a className="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
               <i className="fa fa-arrow-right" aria-hidden="true"/>
               <span className="sr-only">Next</span>
@@ -222,7 +228,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p2} alt=""/>
+                <img src={p2} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -247,7 +253,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p3} alt=""/>
+                <img src={p3} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -272,7 +278,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p4} alt=""/>
+                <img src={p4} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -297,7 +303,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p5} alt=""/>
+                <img src={p5} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -322,7 +328,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p6} alt=""/>
+                <img src={p6} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -347,7 +353,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p7} alt=""/>
+                <img src={p7} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -372,7 +378,7 @@ export default function Index(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p8} alt=""/>
+                <img src={p8} alt="product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -412,7 +418,7 @@ export default function Index(){
         <div className="row">
           <div className="col-lg-6">
             <div className="img-box">
-              <img src={savingImg} alt=""/>
+              <img src={savingImg} alt="young girl"/>
             </div>
           </div>
           <div className="col-lg-6">
@@ -704,7 +710,7 @@ export default function Index(){
           <div className="col-md-5">
             <div className="img_container">
               <div className="img-box">
-                <img src={gifts} alt=""/>
+                <img src={gifts} alt="gifts"/>
               </div>
             </div>
           </div>

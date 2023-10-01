@@ -1,8 +1,14 @@
 import { Link } from "react-router-dom"
+import { Helmet } from "react-helmet-async"
 
 export default function Contact(){
     return(
         <>
+        <Helmet>
+          <title>Contact - Giftoos shop</title>
+          <meta name='description' content='Contact us at giftoos'/>
+          <link rel='canonical' href='/contact'/>
+        </Helmet>
           <div className="hero_area">
     {/* <!-- header section strats --> */}
 

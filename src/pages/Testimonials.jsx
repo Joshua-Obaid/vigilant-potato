@@ -1,8 +1,13 @@
 import { Link } from "react-router-dom"
-
+import { Helmet } from "react-helmet-async"
 export default function Testimonials(){
     return(
         <>
+        <Helmet>
+          <title>Testimonials - Giftoos shop</title>
+          <meta name='description' content='testimonials at giftoos'/>
+          <link rel='canonical' href='/testimonials'/>
+        </Helmet>
              <div className="hero_area">
     {/* <!-- header section strats --> */}
     <header className="header_section">

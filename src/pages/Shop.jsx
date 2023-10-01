@@ -20,10 +20,16 @@ import  savingImg from '../assets/images/saving-img.png'
 import  sliderImg from '../assets/images/slider-img.png'
 // import  trucks from '../assets/images/trucks.svg'
 import { Link } from 'react-router-dom'
+import { Helmet } from 'react-helmet-async'
 
 export default function Shop(){
     return(
         <>
+        <Helmet>
+          <title>Shop - Giftoos shop</title>
+          <meta name='description' content='get our latest products at best price'/>
+          <link rel='canonical' href='/shop'/>
+        </Helmet>
             
   {/* <!-- end hero area --> */}
 
@@ -100,7 +106,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p1} alt=""/>
+                <img src={p1} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -125,7 +131,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p2} alt=""/>
+                <img src={p2} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -150,7 +156,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p3} alt=""/>
+                <img src={p3} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -175,7 +181,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p4} alt=""/>
+                <img src={p4} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -200,7 +206,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p5} alt=""/>
+                <img src={p5} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -225,7 +231,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p6} alt=""/>
+                <img src={p6} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -250,7 +256,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p7} alt=""/>
+                <img src={p7} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>
@@ -275,7 +281,7 @@ export default function Shop(){
           <div className="box">
             <a href="">
               <div className="img-box">
-                <img src={p8} alt=""/>
+                <img src={p8} alt="website product"/>
               </div>
               <div className="detail-box">
                 <h6>

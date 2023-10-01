@@ -1,8 +1,14 @@
 
 import { Link } from "react-router-dom"
+import { Helmet } from "react-helmet-async"
 export default function WhyUs(){
     return(
         <>
+        <Helmet>
+          <title>Why us - Giftoos shop</title>
+          <meta name='description' content='Why us at giftoos'/>
+          <link rel='canonical' href='/whyUs'/>
+        </Helmet>
        <header className="header_section">
       <nav className="navbar navbar-expand-lg custom_nav-container ">
           <Link className='navbar-brand' to='/'>
